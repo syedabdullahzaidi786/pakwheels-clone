@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import Image from 'next/image'
-import { Phone, Bell } from 'lucide-react'
+import { Phone } from 'lucide-react' // Removed Bell
 import { Button } from '@/components/ui/button'
 
 export function Header() {
@@ -25,19 +25,17 @@ export function Header() {
         
         {/* Main Navigation */}
         <nav className="flex items-center justify-between px-4 py-3">
-        <Link href="/" className="flex-shrink-0">
-  <Image
-    src="/logo.png"
-    alt="PakWheels"
-    width={700} // Increased width further
-    height={150} // Increased height further
-    className="h-40 w-auto" // Updated Tailwind class for larger height
-    priority
-  />
-</Link>
+          <Link href="/" className="flex-shrink-0">
+            <Image
+              src="/logo.png"
+              alt="PakWheels"
+              width={700}
+              height={150}
+              className="h-40 w-auto"
+              priority
+            />
+          </Link>
 
-
-          
           <div className="flex items-center gap-6">
             <Link href="/used-cars" className="hover:text-gray-300">Used Cars</Link>
             <Link href="/new-cars" className="hover:text-gray-300">New Cars</Link>
@@ -62,4 +60,3 @@ export function Header() {
     </header>
   )
 }
-
