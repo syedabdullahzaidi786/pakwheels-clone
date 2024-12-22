@@ -2,18 +2,18 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const brands = [
-  { name: 'Toyota', logo: '/placeholder.svg?height=60&width=60' },
-  { name: 'Honda', logo: '/placeholder.svg?height=60&width=60' },
-  { name: 'Suzuki', logo: '/placeholder.svg?height=60&width=60' },
-  { name: 'KIA', logo: '/placeholder.svg?height=60&width=60' },
-  { name: 'Hyundai', logo: '/placeholder.svg?height=60&width=60' },
-  { name: 'BMW', logo: '/placeholder.svg?height=60&width=60' },
-  { name: 'Mercedes', logo: '/placeholder.svg?height=60&width=60' },
-  { name: 'Audi', logo: '/placeholder.svg?height=60&width=60' },
-  { name: 'Nissan', logo: '/placeholder.svg?height=60&width=60' },
-  { name: 'MG', logo: '/placeholder.svg?height=60&width=60' },
-  { name: 'Changan', logo: '/placeholder.svg?height=60&width=60' },
-  { name: 'Proton', logo: '/placeholder.svg?height=60&width=60' },
+  { name: 'Toyota', logo: '/toyota.jpg' },
+  { name: 'Honda', logo: '/honda.png' },
+  { name: 'Suzuki', logo: '/suzuki.png' },
+  { name: 'KIA', logo: '/kia.jpg' },
+  { name: 'Hyundai', logo: '/hyndai.png' },
+  { name: 'BMW', logo: '/bmw.jpeg' },
+  { name: 'Mercedes', logo: '/mercedes.png' },
+  { name: 'Audi', logo: '/audi.png' },
+  { name: 'Nissan', logo: '/nisan.jpeg' },
+  { name: 'MG', logo: '/mg.png' },
+  { name: 'Changan', logo: '/chagan.png' },
+  { name: 'Proton', logo: '/proton.jpeg' },
 ]
 
 export function PopularBrands() {
