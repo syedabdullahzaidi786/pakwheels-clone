@@ -10,7 +10,7 @@ const featuredCars = [
     price: 3850000,
     location: 'Lahore',
     mileage: '45,000 km',
-    image: '/placeholder.svg?height=200&width=300',
+    image: '/gli1.3.jpeg',
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const featuredCars = [
     price: 5200000,
     location: 'Karachi',
     mileage: '32,000 km',
-    image: '/placeholder.svg?height=200&width=300',
+    image: '/oreal.jpg',
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const featuredCars = [
     price: 2300000,
     location: 'Islamabad',
     mileage: '58,000 km',
-    image: '/placeholder.svg?height=200&width=300',
+    image: '/cultus.jpeg',
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const featuredCars = [
     price: 3950000,
     location: 'Rawalpindi',
     mileage: '28,000 km',
-    image: '/placeholder.svg?height=200&width=300',
+    image: '/yaris.jpg',
   },
 ]
 
